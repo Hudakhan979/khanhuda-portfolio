@@ -24,7 +24,7 @@ export default function Hero() {
     );
   }, [profile?.name]);
 
-  const name = profile?.name || 'Alex Johnson';
+  const name = profile?.name || 'Khan Huda';
   const scrollTo = (id) => document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
 
   return (

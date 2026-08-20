@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useQuery } from '@tanstack/react-query';
 import { SiGithub } from 'react-icons/si';
@@ -172,4 +172,4 @@ function useInView(opts) {
   }, [ref]);
   return [setRef, inView];
 }
-import { useState, useEffect } from 'react';
+// import { useState, useEffect } from 'react';

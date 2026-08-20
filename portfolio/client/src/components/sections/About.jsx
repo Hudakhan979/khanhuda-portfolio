@@ -9,8 +9,8 @@ export default function About() {
   const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.2 });
 
   const details = [
-    { icon: MapPin,    label: 'Location', value: profile?.location || 'San Francisco, CA' },
-    { icon: Mail,      label: 'Email',    value: profile?.email    || 'alex@portfolio.dev' },
+    { icon: MapPin,    label: 'Location', value: profile?.location || 'Mumbai,Maharashtra' },
+    { icon: Mail,      label: 'Email',    value: profile?.email    || 'khanhuda979@gmail.com' },
     { icon: Calendar,  label: 'Available',value: profile?.availableForWork ? 'Open to opportunities' : 'Not available' },
     { icon: Code2,     label: 'Focus',    value: 'Full Stack Development' },
   ];
@@ -68,7 +68,7 @@ export default function About() {
                 👨‍💻
               </div>
               <div className="text-center">
-                <p className="font-bold text-lg">{profile?.name || 'Alex Johnson'}</p>
+                <p className="font-bold text-lg">{profile?.name || 'Khan Huda'}</p>
                 <p className="text-sm text-white/60 mt-1">{profile?.title || 'Full Stack Developer'}</p>
               </div>
               <div className="w-full pt-3 border-t border-white/10">

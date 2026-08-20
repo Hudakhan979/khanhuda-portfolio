@@ -3,9 +3,9 @@ import { SiGithub } from 'react-icons/si';
 import { Linkedin, Twitter, ArrowUp } from 'lucide-react';
 
 const SOCIAL = [
-  { icon: SiGithub,  label: 'GitHub',   href: 'https://github.com/alexjohnson' },
-  { icon: Linkedin,  label: 'LinkedIn', href: 'https://linkedin.com/in/alexjohnson' },
-  { icon: Twitter,   label: 'Twitter',  href: 'https://twitter.com/alexjohnson' },
+  { icon: SiGithub,  label: 'GitHub',   href: 'https://github.com/Hudakhan979' },
+  { icon: Linkedin,  label: 'LinkedIn', href: 'https://www.linkedin.com/in/huda-khan-432430313/' },
+  // { icon: Twitter,   label: 'Twitter',  href: 'https://twitter.com/Hudakhan' },
 ];
 
 const LINKS = ['Home', 'About', 'Skills', 'Projects', 'Contact'];
@@ -73,7 +73,7 @@ export default function Footer() {
 
         <div className="pt-8 border-t border-white/10 text-center">
           <p className="text-sm text-white/40">
-            &copy; {new Date().getFullYear()} Alex Johnson. All rights reserved.
+            &copy; {new Date().getFullYear()} Khan Huda. All rights reserved.
           </p>
         </div>
       </div>

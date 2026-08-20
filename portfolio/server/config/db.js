@@ -1,13 +1,12 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 const connectDB = async () => {
   try {
-    const conn = await mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/portfolio', {
-      // Mongoose 8 has sensible defaults — no extra options needed
-    });
+    const conn = await mongoose.connect(process.env.MONGODB_URI);
+
     console.log(`✅ MongoDB connected: ${conn.connection.host}`);
-  } catch (err) {
-    console.error('❌ MongoDB connection error:', err.message);
+  } catch (error) {
+    console.error("❌ MongoDB connection error:", error.message);
     process.exit(1);
   }
 };

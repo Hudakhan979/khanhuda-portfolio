@@ -87,11 +87,11 @@ export default function AdminExperience() {
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <label className={LBL}>Company *</label>
-                  <input {...register('company', { required: true })} placeholder="Vercel" className={INPUT} />
+                 <input {...register('company', { required: true })} placeholder="Nebulaiit"className={INPUT}/>
                 </div>
                 <div>
                   <label className={LBL}>Role *</label>
-                  <input {...register('role', { required: true })} placeholder="Senior Engineer" className={INPUT} />
+                <input {...register('role', { required: true })}placeholder="Frontend Developer Intern"className={INPUT}/>
                 </div>
               </div>
               <div className="grid grid-cols-2 gap-4">
@@ -107,7 +107,7 @@ export default function AdminExperience() {
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <label className={LBL}>Location</label>
-                  <input {...register('location')} placeholder="San Francisco, CA" className={INPUT} />
+                 <input{...register('location')}placeholder="Mumbai, Maharashtra" className={INPUT} />
                 </div>
                 <div>
                   <label className={LBL}>Currently Here?</label>
@@ -119,7 +119,8 @@ export default function AdminExperience() {
               </div>
               <div>
                 <label className={LBL}>Description</label>
-                <textarea {...register('description')} rows={2} placeholder="Brief overview" className={INPUT} />
+               <textarea {...register('description')}rows={2}placeholder="Worked as a Frontend Developer Intern at Nebulaiit, developing responsive React.js applications and integrating REST APIs."
+className={INPUT} />
               </div>
               <div>
                 <label className={LBL}>Responsibilities (one per line)</label>

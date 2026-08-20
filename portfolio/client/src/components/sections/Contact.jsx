@@ -20,8 +20,8 @@ export default function Contact() {
   };
 
   const INFO = [
-    { icon: Mail,   label: 'Email',    value: 'alex@portfolio.dev' },
-    { icon: MapPin, label: 'Location', value: 'San Francisco, CA' },
+    { icon: Mail,   label: 'Email',    value: 'Khan Huda' },
+    { icon: MapPin, label: 'Location', value: 'Mumbai, Maharashtra' },
     { icon: Clock,  label: 'Response', value: 'Within 24 hours' },
   ];
 
